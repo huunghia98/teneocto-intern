@@ -10,7 +10,7 @@ ffs.unlink("./result.json", function (error) {
 let xhr = new XMLHttpRequest;
 let array;
 let url;
-for (let i = 0; i < 3000; i += 301) {
+for (let i = 0; i < 86800; i += 301) {
     url = 'http://www.wordcount.org/dbquery.php?toFind=' + i + '&method=SEARCH_BY_INDEX';
 //Call the open function, GET-type of request, url, true-asynchronous
     xhr.open('GET', url, false);
