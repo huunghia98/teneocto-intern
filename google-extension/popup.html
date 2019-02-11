@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fapbook popup</title>
+    <style>
+        body {
+            font-family: "Open San", sans-serif;
+            min-width: 170px;
+        }
+        #list-account button{
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border-radius: 5px;
+        }
+        #list-account{
+            width: 100%;
+            font-size: 15px;
+            padding: 0 auto;
+            text-align: center;
+        }
+        .name-account{
+            height:20px;
+            margin-top:10px;
+        }
+        .button-switch{
+            background-image: url("/images/button-icon/switch.svg");
+        }
+        .button-remove{
+            background-image: url("/images/button-icon/remove.svg");
+        }
+        .button-edit{
+            background-image: url("/images/button-icon/edit.svg");
+        }
+        .button-save{
+            background-image: url("/images/button-icon/save.svg");
+        }
+        .input-name{
+            max-width:150px;
+            height:30px;
+        }
+        h3 {
+            text-align: center;
+            color: #3c63b0;
+        }
+        .section-controll{
+            text-align: center;
+        }
+        .section-controll button {
+            width: 50px;
+            height: 30px;
+            color: #FFF;
+            border-radius: 50%;
+        }
+        #save-account{
+            background-color: #2ecc71;
+        }
+
+        #clear-all{
+            background-color: #e74c3c;
+        }
+
+        #show-account {
+            background-color: #9b59b6;
+        }
+
+        #notice {
+            text-align: center;
+            height: 20px;
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+<h3>Facebook Switcher</h3>
+<div class="section-controll">
+    <button id="save-account">Save</button>
+    <button id="clear-all">Clear</button>
+    <button id="show-account">Show</button>
+</div>
+<div id="notice"></div>
+<div id="list-account"></div>
+
+
+<script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "Fapbook Switcher",
+  "version": "1.0",
+  "description": "Switch facebook account quickly",
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "cookies",
+    "*://*.facebook.com/*",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png"
+    },
+    "default_title": "Fapbook"
+  },
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png"
+  },
+  "manifest_version": 2
+}
