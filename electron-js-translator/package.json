@@ -1,0 +1,17 @@
+{
+  "name": "electron-translator",
+  "version": "1.0.0",
+  "description": "simply electron app for translating using gg translate",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "electron": "^4.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "nghianh",
+  "license": "ISC"
+}
