@@ -1,1 +1,2 @@
-Edit file check.cfg for changing start index
+Delete data/translated.cfg
+Edit file check.cfg for changing start index,
